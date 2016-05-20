@@ -1,0 +1,165 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="projektory, multimedialne" />
+    <meta name="Author" content="Wojciech Kasperski" />
+    <meta name="description" content="Projektory multimedialne to urządzenia optyczne służące do wyświetlania na ekranie projekcyjnym obrazu nieruchomego lub ruchomego.
+Projektor składa się ze źródła światła i układu optycznego, formującego wiązkę światła. Nowoczesne rzutniki projekcyjne jako nośnika obrazu używają równoległej wiązki światła.
+Dzięki rozbieżności strumienia światła oraz umieszczaniu przedmiotu blisko źródła światła, uzyskuje się znaczne powiększenie obrazu na ekranie."/>
+    <title>Projektory Multimedialne - Strona główna</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="images/projector_fav_icon.png"> <!-- źródło: https://cdn3.iconfinder.com/data/icons/education-training/33/projector-2-128.png -->
+    <!-- Bootstrap declaration -->
+    
+    <!-- Mobile devices responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Zawarty też w folderze assets niestety w środowisku lokalnym komputera nie zadziała, potrzebuje serwera, więc dodałem odnośnik sieciowy, tymczasowo, nim strona pojawi się w sieci -->
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="asstes/js/bootstrap.min.js"></script>
+
+</head>    
+<body>
+<div class="wrapper">
+<!-- Start Nav -->
+    <nav class="navbar navbar-inverse" id="nav">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/epson_projector_opt.jpg" class="img-circle headimage" alt="epson_projector_image">Projektory</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="dzialanie_i_budowa.html">Działanie i budowa</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="charakterystyka.html">Charakterystyka</a></li>
+                    <li><a href="diy.html">DIY</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="mapa_serwisu.html">Mapa serwisu</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+<!-- End Nav -->
+<!-- Start Header -->
+<header>
+    <div class="header">
+        <h1>Działanie</h1>
+        <h4>Jak działają projektory?</h4>
+    </div>
+</header>    
+<!-- End Header --> 
+<!-- Start Content -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12" id="content" >
+                <br />
+                <p>
+                    Poniżej wyjaśniona została zasada działania projektora i jego budowa na przykładzie kieszonkowego DLP ze źródłem światła w postaci diod LED. Jako przykład posłużył projektor Philips PicoPix, model PPX 2480.
+                </p>
+                <p>
+                    Projektor ten, przed rozbiorem na części pierwsze, mierzy 10,5×10,5 cm, przy grubości 31 mm. Jego waga wynosi 290 g. Lampa posiada maksymalną moc 80 lumenów, a rozdzielczość wyświetlanego obrazu to 854×480 pikseli.
+                </p>
+                <p>
+                    Po otwarciu obudowy, odkręceniu płyty głównej i demontażu lampy, wewnątrz widzimy wentylator, baterię oraz głośnik.
+                </p>
+                <p>
+                    Na płycie głównej znajdują się złącza odpowiedzialne za komunikację z poszczególnymi elementami projektora – diodami LED, chipem DMD, złączami wejść i wyjść. Na spodniej części płyty głównej znajduje się wlutowana kość pamięci o pojemności 2GB.
+                </p>
+                <p>
+                    Układ generujący obraz jest niewielki. W połączeniu z radiatorem chłodzącym diody LED i soczewkami zajmuje około 9 x 5 cm.
+                </p>
+                <p>
+                    <img src="images/dzialanie1.jpg" alt="dzialanie1.jpg" class="img-responsive"><br />
+                    <kbd>Lampa LED w technologii DLP</kbd>
+                </p>
+                <p>
+                    W przeciwieństwie do projektorów lampowych, posiadających jedno źródło światła, które przechodzi przez filtr nadający mu kolor, projektory LED posiadają 3 źródła światła. Każda z diod generuje światło w określonym kolorze: czerwonym, niebieskim i zielonym.
+                </p>
+                <p>
+                    <img src="images/dzialanie2.jpg" alt="dzialanie2.jpg" class="img-responsive"><br />
+                    <kbd>Światło jest generowane przez diody LED</kbd>
+                </p>
+                <p>
+                    Światło z diody zostaje skupione przez soczewkę i pada na półprzepuszczalne lustro. Następnie poszczególne promienie łączy się ze sobą w celu uzyskania odpowiedniej barwy.
+                </p>
+                <p>
+                <img src="images/dzialanie3.jpg" alt="dzialanie3.jpg" class="img-responsive"><br />
+                <kbd>Światło jest łączone w celu uzyskania barwy</kbd>
+                </p>
+                <p>
+                    Po odbiciu od lustra, światło trafia na chip DMD będący elementem technologii DLP. Chip DMD  (Digital Micromirror Device) składa się z matrycy mikro-luster. Każde z mikro-luster odpowiada za jeden piksel wyświetlanego obrazu. Łatwo policzyć, że w tym wypadku na powierzchni około 1,5 cm2, zajmowanej, przez DMD znajduje się 409 tysięcy mikro-luster. Dodatkowo, każde z nich potrafi błyskawicznie zmienić swoje położenie w celu zmiany obrazu generowanego przez piksel, za który odpowiada. Poprzez „błyskawicznie” rozumiemy 1/60 część sekundy, w przypadku obrazu wyświetlanego z częstotliwością 60Hz.
+                </p>
+                <p>
+                    DMD generuje obraz w skali szarości, któremu kolor nadawany jest za pomocą światła padającego z diod LED.
+                </p>
+                <p>
+                    <img src="images/dzialanie4.jpg" alt="dzialanie4.jpg" class="img-responsive"><br />
+                    <kbd>Światło pada na chip DMD</kbd>
+                </p>
+                <p>
+                    Mimo, że jest to mechanizm o trudnym do wyobrażenia poziomie skomplikowania, to prace służące wprowadzeniu rozdzielczości FullHD do projektorów kieszonkowych są już bliskie ukończenia. Rozdzielczość 1920 x 1080 pikseli oznacza 5-krotnie większe zagęszczenie mikro-luster na powierzchni DMD, niż w przypadku prezentowanego Philipsa PicoPix 2480.
+                </p>
+                <p>
+                    Zaletami technologii DLP są wysoki poziom kontrastu oraz szybkość reakcji mikro-luster – dzięki temu obraz jest ostry i płynny.
+                </p>
+                <p>
+                    Po odbiciu od DMD kolorowy obraz jest odbijany w pryzmacie i trafia na obiektyw, czyli prosty układ soczewek służący do przeniesienia treści na ekran. W przypadku PicoPix 2480 za pomocą obiektywu reguluje się również ostrość obrazu.
+                </p>
+                <p>
+                    <img src="images/dzialanie5.jpg" alt="dzialanie5.jpg" class="img-responsive"><br />
+                    <kbd>Kolorowy obraz wyświetlany za pomocą obiektywu</kbd>
+                </p>
+                <p>
+                    Mimo zaawansowania przedstawionej technologii widać, że przed producentami wciąż jest jeszcze sporo wyzwań. Głównymi problemami, przed którymi stoją konstruktorzy są:
+                </p>
+                <ul>
+                    <li>
+                        Ilość światła generowana przez pojedynczą diodę; obecnie maksymalna jasność spotykana w projektorach kieszonkowych nie przekracza 100 lumenów;
+                    </li>
+                    <li>
+                        Rozdzielczość obrazu, czyli stopień upakowania mikro-luster na niewielkiej powierzchni chipu DMD.
+                    </li>
+                </ul>
+                <p> 
+                    Na koniec zapraszam do obejrzenia wideo w języku angielskim przybliżające działanie i budowę projektorów LCD i DLP na przykładzie animacji poszczególnych ich komponentów podczas działania.
+                </p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="640" height="480" src="https://www.youtube.com/embed/qOsibeDX8jM" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <br />
+                <p class="text-muted">
+                    Źródło: <a href="http://www.benchmark.pl/testy_i_recenzje/projektory-laserowe/strona/19831.html" alt="link">http://www.benchmark.pl/testy_i_recenzje/projektory-laserowe/strona/19831.html</a>
+                </p>
+            </div>
+        </div>
+    </div>
+<!-- End Content -->
+<!-- Start Footer -->
+    <footer class="footer">   
+        <div class="container-fluid">
+            <p class="text-muted text-center">Copyright &#x24D2; 2016 by Wojciech Kasperski
+        </div>
+    </footer>
+<!-- End Footer -->
+<!-- Start Top-Link-Block -->   
+    <div id="backtotop">
+    <a class="back-to-top glyphicon glyphicon-arrow-up cd-top" href="#nav"></a>
+    </div>
+<!-- End Top-Link-Block -->
+    </div>
+</body>
+</html>
