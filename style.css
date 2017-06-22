@@ -48,6 +48,7 @@ div#backtotop {
     opacity: 0.5;
 }
 div#backtotop:hover {
+    cursor:pointer;
     opacity: 1;
 }
 a.back-to-top {
